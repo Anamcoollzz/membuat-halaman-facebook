@@ -1,0 +1,296 @@
+body{ 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+a {
+	color: #365899;
+}
+
+.kiri {
+	font-family: sans-serif;
+	color: #0e385f;
+	font-weight: bold;
+	padding-left: 185px;
+	padding-top: 25px;
+	line-height: 29px;
+	font-size: 20px;
+	max-width: 450px;
+	float: left;
+}
+
+.kanan {
+	font-family: sans-serif;
+	float: left;
+	max-width: 376px;
+	padding-left: 130px;
+}
+
+.anam-ndut {
+	width: 100%;
+	display: block;
+}
+
+.name-input {
+	width: 46%;
+	float: left;
+}
+
+.name-input:last-child {
+	float: right;
+}
+
+.mb-5 {
+	margin-bottom: 5px;
+}
+
+.dunia {
+
+}
+
+.jk {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.jk-radio {
+	width: 36%;
+	float: left;
+	font-size: 18px;
+}
+
+.jk input[type="radio"] {
+	float: left;
+	width: 20px;
+}
+
+.sign-up {
+	font-size: 19px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	font-weight: bold !important;
+	letter-spacing: normal;
+	/*text-rendering: optimizelegibility;*/
+	line-height: 126%;
+	min-width: 194px;
+	padding: 7px 20px;
+	text-align: center;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	/*box-shadow: inset 0 1px 1px #a4e388;*/
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border: 1px solid;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	position: relative;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	    border: 1px solid #bdc7d8
+}
+
+.term {
+	font-size: 11px;
+	color: #777;
+	line-height: 14px;
+	width: 315px;
+}
+
+.create-page {
+	border-top: 1px solid #dddfe2;
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+.why {
+	float: left;
+	width: 140px;
+	font-size: 11px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.kanan a {
+	text-decoration: none;
+	/*color: blue;*/
+	/*float: left;*/
+}
+
+.kanan select {
+	margin-top: 5px;
+	float: left;
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	border-radius: 0px;
+}
+
+#tgl {
+	width: 80px;
+}
+
+#bln {
+	width: 60px;
+}
+
+.tgl-lhr {
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 13px;
+	margin-bottom: 5px;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.kanan input {
+	padding: 8px 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.create-account {
+	margin-top: 5px;
+	color : #333;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.free-forever {
+	color: #1d2129;
+	font-size: 19px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.container {
+	padding-top: 20px;
+	width: 100%;
+	background: linear-gradient(white, #D3D8E8);
+	height: 590px;
+}
+
+.header{
+	width: 100%;
+	height: 82px;
+	background: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	color: white;
+	font-family: verdana;
+	font-size: 12px;
+	line-height: 1.34;
+}
+
+.forgoten-account {
+	color: #9cb4d8;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+#logo{
+	margin-left: 185px;
+	max-height: 98px;
+	max-width: 170px;
+	margin-top: 30px;
+}
+
+.login-form {
+	float: right;
+	width: 565px;
+}
+
+.form-group {
+	float: left;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.form-group input {
+	border: 1px solid #1d2a5b;
+	width: 142px;
+	padding: 3px;
+}
+
+.form-group button {
+	margin-top: 22px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.login-btn{
+	background-color: #4267b2;
+	font-weight: bold;
+	color: #ffffff;
+	height: 22px;
+	width: 50px;
+	cursor: pointer;
+	padding: 3px;
+	border: 1px solid #29487d;
+	font-size: 12px;
+}
+
+.footer {
+	background-color: white;
+	color: #737373;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin: 10px 180px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #365899;
+}
+
+.bahasa {
+	margin-left: -44px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.bahasa li {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.lain {
+	margin-left: -55px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.lain li {
+	display: inline-block;
+	margin-left: 16.5px;
+}
+
+#garis {
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 8px;
+	margin-bottom: 8px;
+}
+
+.thn-fb{
+	margin-top: 20px;
+	/*margin-left: -50px;*/
+}

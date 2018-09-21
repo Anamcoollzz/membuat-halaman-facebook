@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>Facebook - Masuk atau Daftar</title>
+<head>
+	<link rel="icon" type="image/png" href="ikon.png" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<img src="Facebook.png" id="logo">
+		<form action="" class="login-form">
+			<div class="form-group">
+				<label for="email">Email atau Telepon</label>
+				<input type="email" id="email" name="email" />
+			</div>
+			<div class="form-group">
+				<label for="assword">Kata Sandi</label>
+				<input type="password" id="password" name="Password">
+				<div class="forgoten-account">Lupa akun?</div>
+			</div>
+			<div class="form-group">
+				<button class="login-btn">Masuk</button>
+			</div>
+		</form>
+	</div>
+	<div class="container">
+		<div class="kiri">
+			Facebook membantu Anda terhubung dan berbagi dengan orang-orang dalam kehidupan Anda.
+			<img class="dunia" src="dunia.png">
+		</div>
+		<div class="kanan">
+			<h1 class="create-account">Daftar</h1>
+			<h2 class="free-forever">Gratis, sampai kapan pun.</h2>
+			<br>
+			<div class="anam-ndut">
+				<div class="name-input">
+					<input type="text" placeholder="Nama depan">
+				</div>
+				<div class="name-input">
+					<input type="text" placeholder="Nama belakang">
+				</div>
+			</div>
+			<input type="text" placeholder="Nomor seluler atau email">
+			<input type="text" placeholder="Kata sandi baru">
+			<div class="tgl-lhr">Tanggal Lahir</div>
+			<select name="" id="tgl">
+				<option value="">Tanggal</option>
+			</select>
+			<select name="" id="bln">
+				<option value="">Bulan</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+				<option value="Mei">Mei</option>
+				<option value="Jun">Jun</option>
+				<option value="Jul">Jul</option>
+				<option value="Agu">Agu</option>
+				<option value="Sep">Sep</option>
+				<option value="Okt">Okt</option>
+				<option value="Nov">Nov</option>
+				<option value="Des">Des</option>
+			</select>
+			<select name="" id="thn">
+				<option value="">Tahun</option>
+			</select>
+			<div class="why">
+				<a href="">Mengapa saya harus memberikan tanggal lahir saya?</a>
+			</div>
+			<br>
+			<div class="jk">
+				<div class="jk-radio"><input type="radio"> Perempuan</div>
+				<div class="jk-radio"><input type="radio"> Laki-laki</div>
+			</div>
+			<br>
+			<br>
+			<div class="term">
+				Dengan mengklik Daftar, Anda menyetujui <a href="">Ketentuan</a>, <a href="">Kebijakan Data</a> dan <a href="">Kebijakan Cookie kami</a>. Anda akan menerima Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.
+			</div>
+			<br>
+			<button class="sign-up">Daftar</button>
+			<br>
+			<div class="create-page"><a href="">Buat Halaman</a> untuk selebriti, grup musik, atau bisnis.</div>
+		</div>
+	</div>
+	<div class="footer">
+		<ul class="bahasa">
+			<li>Bahasa Indonesia</li>
+			<li><a href="">English (UK)</a></li>
+			<li><a href="">Basa Jawa</a></li>
+			<li><a href="">Bahasa Melayu</a></li>
+			<li><a href="">日本語ا</a></li>
+			<li><a href="">لعربية</a></li>
+			<li><a href="">Français (France)</a></li>
+			<li><a href="">Español</a></li>
+			<li><a href="">한국어</a></li>
+			<li><a href="">Português (Brasil)</a></li>
+			<li><a href="">Deutsch</a></li>
+			<li><button>+</button></li>
+		</ul>
+		<div id="garis"></div>
+		<ul class="lain">
+			<li><a href="">Daftar</a></li>
+			<li><a href="">Masuk</a></li>
+			<li><a href="">Messenger</a></li>
+			<li><a href="">Facebook Lite</a></li>
+			<li><a href="">Seluler</a></li>
+			<li><a href="">Cari Teman</a></li>
+			<li><a href="">Orang</a></li>
+			<li><a href="">Halaman</a></li>
+			<li><a href="">Minat Video</a></li>
+			<li><a href="">Tempat</a></li>
+			<li><a href="">Game</a></li>
+			<li><a href="">Lokasi</a></li>
+			<li><a href="">Marketplace</a></li>
+			<li><a href="">Grup</a></li>
+			<li><a href="">Instagram</a></li>
+		</ul>
+		<ul class="lain">
+			<li><a href="">Lokal</a></li>
+			<li><a href="">Tentang</a></li>
+			<li><a href="">Buat Iklan</a></li>
+			<li><a href="">Buat Halaman</a></li>
+			<li><a href="">Pengembang</a></li>
+			<li><a href="">Karier</a></li>
+			<li><a href="">Privasi</a></li>
+			<li><a href="">Cookie</a></li>
+			<li><a href="">Pilihan Iklan</a></li>
+			<li><a href="">Ketentuan</a></li>
+			<li><a href="">Bantuan</a></li>
+			<li><a href="">Pengaturan</a></li>
+			<li><a href="">Log Aktivitas</a></li>
+		</ul>
+		<div class="thn-fb">Facebook © 2018</div>
+	</div>
+	<script  src="jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			function renderTgl(maks){
+				$('#tgl').html("");
+				$('#tgl').append('<option value="">Tanggal</option>');
+				for (var i = 1 ; i <= maks; i++) {
+					$('#tgl').append('<option value="'+i+'">'+i+'</option>');
+				}	
+			}
+			renderTgl(31);
+			var a = new Date();
+			var thn = a.getFullYear();
+			for (var i = 1905 ; i <= thn; i++) {
+				$('#thn').append('<option value="'+i+'">'+i+'</option>');
+			}
+			$('.sign-up').on('click', function(e){
+				e.preventDefault();
+				alert('hehe mau daftar ya :)');
+			});
+			var bln31 = ['Jan','Mar','Mei','Jul','Agu','Okt','Des'];
+			$('#bln').on('change', function(e){
+				var tgl = $('#tgl').val();
+				if(bln31.includes($(this).val())){
+					renderTgl(31);
+				}else if($(this).val() == 'Feb'){
+					renderTgl(28);
+				}else{
+					renderTgl(30);
+				}
+				if(tgl > 28 && $(this).val() == 'Feb'){
+					$('#tgl').val(28);
+				}else{
+					$('#tgl').val(tgl);
+				}
+			});
+		});
+	</script>
+</body>
+</html>
