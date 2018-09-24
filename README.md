@@ -1,9 +1,8 @@
-# PEMROGRAMAN WEB
+# PEMROGRAMAN WEB  
+**Membuat halaman login facebook**  
 
-**Membuat halaman login facebook**
-
-Nama : Hairul Anam
-NIM : 162410101128
-Matkul : Pemrograman Web
+Nama : Hairul Anam  
+NIM : 162410101128  
+Matkul : Pemrograman Web  
 
 > Mari kita taklukkan dunia dengan koding :)
